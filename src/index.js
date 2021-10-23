@@ -8,5 +8,6 @@ import { TableComponent } from '@/components/table/Table'
 const excel = new Excel('#app', {
 	components: [HeaderComponent, ToolbarComponent, FormulaComponent, TableComponent]
 })
-
+ 
 excel.render()
+
